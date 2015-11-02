@@ -1,6 +1,6 @@
 # leap-motion-monitor
 
-The Leap Motion Monitor is a [Processing 3](https://processing.org/) application that shows real-time charts of time series of a number of [Leap Motion](https://www.leapmotion.com/) measures. These values are shown for both the right and the left hand. The following image shows the application in action. The left column shows the time series for the left hand, the right column for those for the right hand. Nine measures are shown for each hand: palm position (3 axis), palm rotation (3 axis), grab strength, pinch strength and extended finger count.
+The Leap Motion Monitor is a [Processing 3](https://processing.org/) application that shows real-time charts of time series of a number of [Leap Motion](https://www.leapmotion.com/) measures. The following image shows the application in action. The left column shows the time series for the left hand, the right column for those for the right hand. Nine measures are shown for each hand: palm position (3 axis), palm rotation (3 axis), grab strength, pinch strength and extended finger count.
 
 [![Screenshot](img/screen_1.png)](img/screen_1.png)
 

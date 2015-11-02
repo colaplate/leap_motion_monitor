@@ -1,10 +1,10 @@
 # leap-motion-monitor
 
-The Leap Motion Monitor is a [Processing 3](https://processing.org/) application that shows real-time charts of time series of a number of [Leap Motion](https://www.leapmotion.com/) measures such as palm position, palm rotation, grab and pinch strength. These values are shown for both the right and the left hand. The following image shows the application in action.
+The Leap Motion Monitor is a [Processing 3](https://processing.org/) application that shows real-time charts of time series of a number of [Leap Motion](https://www.leapmotion.com/) measures. These values are shown for both the right and the left hand. The following image shows the application in action. The left column shows the time series for the left hand, the right column for those for the right hand. Nine measures are shown for each hand: palm position (3 axis), palm rotation (3 axis), grab strength, pinch strength and extended finger count.
 
-![Screenshot](img/screen_1.png)
+[![Screenshot](img/screen_1.png)](img/screen_1.png)
 
-The initial purpose of this application was to monitor these Leap Motion measures and their stability as well as inspect strategies for stabilising these time series such that they become more usable for interactive generative purposes. A control panel allows the user to disable the use the stabilised palm position data. The user can also disable additional stabilisation and smoothing of the time series.
+The initial purpose of this application was to monitor the aforementioned Leap Motion measures and inspect strategies for stabilising these time series such that they become more usable for interactive generative purposes. A control panel allows the user to disable the use the stabilised palm position data. The user can also disable additional stabilisation and smoothing (by bounding the first derivative) of the time series. The individual values are marked with dots and color coded according to type. Values that were smoothed or interpolated are marked as red dots.
 
 # Running the application
 
